@@ -66,7 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				8F260B7D296C6C5E00741570 /* quiz_bowlApp.swift */,
-				8F260B8B296C70AE00741570 /* VIEWS */,
+				8F260B8B296C70AE00741570 /* Views */,
 				8F260B8D296C711C00741570 /* Models */,
 				8F260B81296C6C6100741570 /* Assets.xcassets */,
 				8F260B83296C6C6100741570 /* Preview Content */,
@@ -83,13 +83,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		8F260B8B296C70AE00741570 /* VIEWS */ = {
+		8F260B8B296C70AE00741570 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				8F260B7F296C6C5E00741570 /* ContentView.swift */,
 				8FF67820296F0E5800A974EC /* QuestionView.swift */,
 			);
-			path = VIEWS;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		8F260B8C296C70E400741570 /* Components */ = {

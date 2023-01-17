@@ -14,28 +14,29 @@ struct ContentView: View {
             VStack(spacing: 40) {
                 VStack(spacing: 20) {
                     Text("Country Flag Game")
-                    font(.title)
+                        .font(.title)
                         .fontWeight(.heavy)
-                    foregroundColor(.yellow)
+                        .foregroundColor(.yellow)
                     Text("Ready to test your skillz?")
+                        .foregroundColor(.yellow)
                 }
-                .foregroundColor(.yellow)
+                NavigationLink {
+                    QuestionView()
+                        .environmentObject(quizManager)
+                } label : {
+                    CustomButton(text: "Start")
+                }
             }
-            NavigationLink {
-                QuestionView()
-                    .environmentObject(quizManager)
-            } label : {
-                CustomButton(text: "Start")
-            }
-        }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        ignoresSafeArea(.all)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .ignoresSafeArea(.all)
             .background(.cyan)
-    }
-    
-    struct ContentView_Previews: PreviewProvider {
-        static var previews: some View {
-            ContentView()
         }
     }
 }
+        
+        struct ContentView_Previews: PreviewProvider {
+            static var previews: some View {
+                ContentView()
+            }
+        }
+   
