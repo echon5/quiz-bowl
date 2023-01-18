@@ -8,7 +8,46 @@
 import Foundation
 struct Data {
     let questions = [
-        
+        Question(correctAnswer:
+                Answer(text: "Vietnam", isCorrect: true),
+              incorrectAnswers: [
+                Answer(text: "Ukraine", isCorrect: false),
+                Answer(text: "Pakistan", isCorrect: false),
+                Answer(text: "Iceland", isCorrect: false)
+              ])
+        ,
+        Question(correctAnswer:
+                Answer(text: "Somalia", isCorrect: true),
+              incorrectAnswers: [
+                Answer(text: "Italy", isCorrect: false),
+                Answer(text: "Vietnam", isCorrect: false),
+                Answer(text: "Austria", isCorrect: false)
+              ])
+        ,
+        Question(correctAnswer:
+                Answer(text: "South Korea", isCorrect: true),
+              incorrectAnswers: [
+                Answer(text: "Peru", isCorrect: false),
+                Answer(text: "India", isCorrect: false),
+                Answer(text: "Sweden", isCorrect: false)
+              ])
+        ,
+        Question(correctAnswer:
+                Answer(text: "Japan", isCorrect: true),
+              incorrectAnswers: [
+                Answer(text: "China", isCorrect: false),
+                Answer(text: "Greece", isCorrect: false),
+                Answer(text: "Somalia", isCorrect: false)
+              ])
+        ,
+        Question(correctAnswer:
+                Answer(text: "Brazil", isCorrect: true),
+              incorrectAnswers: [
+                Answer(text: "Japan", isCorrect: false),
+                Answer(text: "Israel", isCorrect: false),
+                Answer(text: "Norway", isCorrect: false)
+              ])
+        ,
         Question(correctAnswer:
                 Answer(text: "Italy", isCorrect: true),
               incorrectAnswers: [

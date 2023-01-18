@@ -50,7 +50,7 @@ struct QuestionView: View {
                 Text("Country Flag Quiz")
                     .font(.title)
                 Text("Congrats!! You hace completed the quiz.")
-                Text ("You scored\(quizManager.score) out of \(quizManager.questions.count)")
+                Text ("You scored \(quizManager.score) out of \(quizManager.questions.count)")
                 Button {
                     quizManager.reset()
                 } label: {
